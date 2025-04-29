@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Week 5 JavaScript Demo</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Week 5 JavaScript Demo</h1>
+            <p id="dynamic-text">This text will change when you click the button below.</p>
+            <button id="change-text-btn">Change Text</button>
+        </header>
+
+        <main>
+            <section id="style-section">
+                <h2>Style Modification</h2>
+                <div id="style-demo" class="demo-box">
+                    This box's style will change when you click the button.
+                </div>
+                <button id="change-style-btn">Change Style</button>
+                <button id="reset-style-btn">Reset Style</button>
+            </section>
+            <br>
+            <hr>
+            <section id="form-section">
+                <p>This section demonstrates adding/removing elements in a list.</p>
+                <h2>Item List Form</h2>
+                <form id="item-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    
+                    <label for="item">Item:</label>
+                    <input type="text" id="item" name="item">
+                    
+                    <button type="button" id="add-item-btn">Add Item</button>
+                    <button type="button" id="remove-item-btn">Remove Item</button>
+                    <button type="button" id="show-list-btn">Show List</button>
+                    <button type="button" id="clear-list-btn">Clear List</button>
+                </form>
+                <div id="list-output"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; JavaScript Demo</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
